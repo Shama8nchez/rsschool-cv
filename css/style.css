@@ -17,8 +17,13 @@ figure, figcaption, footer, header, hgroup, menu, nav, section {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+html {
+   height: 100%;
+}
+
 body {
-	line-height: 1.2;
+   height: 100%;
+	line-height: 1.2;   
 }
 ol { 
 	padding-left: 1.4em;
@@ -34,7 +39,10 @@ ul {
  }
 
 .wrapper {
+   display: flex;
+   flex-direction: column;
    max-width: 1200px;
+   min-height: 100%;
    margin: 10px auto;
    border-radius: 5px 5px 0 0;
    box-shadow: 5px -5px 10px rgba(0, 0, 0, 0.4);
@@ -119,3 +127,44 @@ ul.nav {
    color: black;
 }
 
+.main {
+   flex: 1 1 auto;
+}
+
+footer{
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;   
+   font-family: Arial, Helvetica, sans-serif;   
+   color: black;
+   background-color: var(--colr);
+}
+
+.footer-container {
+   display: flex;
+}
+
+.year {
+   padding-top: 16px;
+   font-size: 18px;
+}
+
+.github {
+   margin-left: 20px;
+   padding-top: 12px;
+   padding-left: 60px;
+   background-image: url(../img/25231.png);
+   background-size: 50px 50px;
+   background-repeat: no-repeat;
+}
+
+.github a {
+   font-size: 26px;
+   color: black;
+   text-decoration: none;
+}
+
+
+.rsschool img {
+   height: 50px;
+}
