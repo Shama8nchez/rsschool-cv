@@ -153,7 +153,9 @@ ul.nav {
    flex-wrap: wrap;
    font-family: Arial, Helvetica, sans-serif;
 }
+
 .main section {
+   max-width: 580px;
    width: calc(50% - 20px);
    min-height: 200px;
    margin: 10px;   
@@ -234,4 +236,46 @@ footer{
 
 .rsschool img {
    height: 50px;
+}
+
+@media (max-width: 800px) {
+   header {   
+      flex-direction: column;
+   }
+   .photo {
+      margin: 10px auto;
+   }
+   .profile-name {
+      padding: 20px 20px 5px 20px; 
+   }
+}
+
+@media (max-width: 744px) {
+
+   .main {
+      flex-direction: column;
+   }
+
+   .main section {
+      width: calc(100% - 100px);
+      margin: 10px 50px;
+   }
+   .year {
+      padding-top: 14px;
+      font-size: 14px;
+   }
+   
+   .github {
+      padding-top: 7px;
+      padding-left: 55px;
+      background-size: 40px 40px;
+   }
+   
+   .github a {
+      font-size: 22px;
+   }
+   
+   .rsschool img {
+      height: 40px;
+   }
 }
