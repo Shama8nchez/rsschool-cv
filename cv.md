@@ -6,7 +6,9 @@
 * **Email:** shamanouski@gmail.com
 * **GitHub:** Shama8nchez
 * **Discord:** Shama8nchez
+
 --------
+
 ## About me
 I'm beginner Front-end developer.
 
