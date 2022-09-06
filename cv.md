@@ -1,4 +1,5 @@
 ![](./img/MyPhoto.jpg)
+
 # Andrei Shamanouski
 ## Contacts
 * **Address:** Minsk, Belarus
@@ -35,4 +36,4 @@ My project: [https://github.com/Shama8nchez/rsschool-cv](https://github.com/Sham
    + IT-engineer
 ------------------
 ## English
-A2 
+A2
